@@ -18,6 +18,6 @@ This code implements Peterson's algorithm for mutual exclusion, which allows onl
 - The PetersonMutex class provides a simple implementation of the algorithm using two flags and a turn variable.
 - The lock method is used to acquire the lock before entering the critical section, and the unlock method is used to release the lock after exiting the critical section.
 - The example demonstrates the usage of the PetersonMutex class in a multi-threaded environment with two threads.
-- Each thread executes a critical section while respecting the mutual exclusion enforced by Peterson's algorithm.
+- Each thread executes a critical section while respecting the mutual exclusion enforced by Peterson's algorithm
 
 
